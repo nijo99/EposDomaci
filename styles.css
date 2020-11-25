@@ -13,7 +13,7 @@
 
 nav {
     width:70%;
-    position: sticky;
+    position: static;
     z-index: 1;
     display: flex;
     margin: 20px auto;
@@ -28,15 +28,26 @@ nav {
 }
 
 .nav-links {
-    flex:1;
-    text-align:right;
+    /*flex:1;
+    text-align:right; */
 }
 
+.nav-links ul  {
+    
+    /*display: inline-block;*/
+    display: flex;
+    flex-direction: row;
+    flex-basis: 40px;
+    list-style: none; 
+    margin-left: 200px;
+    font-size: 30px;
+    
+
+}
 .nav-links ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 10px;
-    font-size:30px;
+    display: flex;
+    margin: 10px;
+    
 }
 
 .nav-links ul li a {
@@ -49,24 +60,25 @@ nav {
         border-radius: 5px;
  }
 
-id1 {
-    padding-top:100px;
-    padding:0px;
-    margin: 0px;
-    color:#3b9cd6
-}
+
 .div2 {
     display: normal;
     position: absolute;
     min-width: 100vw;
     height: 800px;
-    font-size: 50px;
+    font-size: 30px;
     background-repeat: no-repeat;
     background-image: url('images/div1.jpg');
     background-size: 100vw 500px;
+    color: white;
     
 }
 
 .div2 p {
-    color:white;
+    margin: 50px;
+    width: 500px;
+}
+
+#id2{
+    font-size: 20px;
 }
