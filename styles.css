@@ -62,11 +62,11 @@ id1 {
     height: 800px;
     font-size: 50px;
     background-repeat: no-repeat;
-    background-image: url('images/image1.jpg');
+    background-image: url('images/div1.jpg');
     background-size: 100vw 500px;
     
 }
 
 .div2 p {
-    color:red;
+    color:white;
 }
