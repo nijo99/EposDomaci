@@ -44,13 +44,22 @@ nav {
     list-style: none; 
     margin-left: 600px;
     font-size: 30px;
+    font-weight: lighter;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: transparent;
     
 
 }
 .nav-links ul li {
-    display: flex;
+    
     margin: 10px;
     
+    
+}
+
+.nav-links ul li:hover {
+    background-color:#0e5279;
 }
 
 .nav-links ul li a {
@@ -78,7 +87,7 @@ nav {
     display: flex;
     flex-direction: column;
     margin-left: 800px;
-    margin-top: 30px;
+    margin-top: 10px;
     width: 500px;
    
 }
